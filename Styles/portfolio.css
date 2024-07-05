@@ -202,3 +202,10 @@ main{
     text-align: center;
     margin: 10%;
 }
+
+/* footer style */
+footer{
+    display: flex;
+    background: #fff8f3;
+   padding: 130px 200px;
+}
