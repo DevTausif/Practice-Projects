@@ -1,211 +1,205 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body{
-    font-family: "Kanit", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 main section {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
-.section-title{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
-.section-description{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    margin-top: 30px;
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
 }
 
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
-    padding-top: 20px ;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  padding-top: 20px;
 }
 
 nav > ul {
-    display: flex;
-    align-items: center;   
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style-type: none;
-    margin-right: 50px;
+  list-style-type: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 /* buttons styles */
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: white;
-    padding: 15px 35px;
-    font-size: 20px;
-    font-weight: 700;
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
-#btn-second{
-    margin-top: 20px;
+#btn-second {
+  margin-top: 20px;
 }
 
 /* header styles */
-.header{
-    background-color: #fff8f3;
-    background-image: url('../Assets/images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    
+.header {
+  background-color: #fff8f3;
+  background-image: url("../Assets/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 /* banner content */
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .profile{
-    width: 500px;
-}
-
-.banner-description{
-     color: #474747;;
-}
-.banner-greeting{
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0;
+.banner .profile {
+  width: 500px;
 }
 
-.banner-title{
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.banner-description {
+  color: #474747;
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
 }
 
-.banner-content{
-    max-width: 500px;
-    
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  max-width: 500px;
 }
 
 /* main section styles */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* about section styles */
-.about{
-    padding: 100px;
-    margin: 130px 0;
-    border-radius: 10px;
-    margin: 130px 0;
-    background-color: #fff8f3;
+.about {
+  padding: 100px;
+  margin: 130px 0;
+  border-radius: 10px;
+  margin: 130px 0;
+  background-color: #fff8f3;
 }
 
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
-    text-align: center;
-    margin-top: 60px;
+.about-info {
+  text-align: center;
+  margin-top: 60px;
 }
 
-#what-i-do-description{
-    padding: 10px 150px;
+#what-i-do-description {
+  padding: 10px 150px;
 }
 
 /* skills styles */
-.skill-container{
-    margin-top: 50px;
-    margin-bottom: 60px;
-    display: flex;
-    gap: 24px;
+.skill-container {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  gap: 24px;
 }
 
-.skill{
-    padding: 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgb(209, 209, 209);
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgb(209, 209, 209);
 }
 
-.skill-title{
-    margin: 10px 0;
+.skill-title {
+  margin: 10px 0;
 }
 
-.skill-description{
-    color: #757575;
+.skill-description {
+  color: #757575;
 }
 
 /* resume styles */
 
- .resume-container{
-    display: flex;
-    gap:50px;
-    margin: 30px;
-    
-    
-   
-} 
-.resume-column-title{
-    color: #474747;
-    font-size: 30px;
-    font-weight: 700;
-
+.resume-container {
+  display: flex;
+  gap: 50px;
+  margin: 30px;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
 
-
-.resume-item-description, .resume-item-institute{
-    color: #757575;
+.resume-item-description,
+.resume-item-institute {
+  color: #757575;
 }
 
-.resume-item-institute{
-    margin-bottom : 20px;
-    margin-top: 0px;
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
-.resume-item-title{
-    color: #474747;
-    font-size: 25px;
-    font-weight: 700;
-    margin: 10px;
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 10px;
 }
 
 /* cv styles */
-.download-cv{
-    text-align: center;
-    margin: 10%;
+.download-cv {
+  text-align: center;
+  margin: 10%;
 }
 
 /* footer style */
-footer{
-    display: flex;
-    background: #fff8f3;
-   padding: 130px 200px;
+footer {
+  display: flex;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
 }
